@@ -1,0 +1,11 @@
+body {
+  background-color: #141414;
+}
+
+footer {
+  text-align: center;
+}
+
+body img:hover {
+  scale: 1.2;
+}
