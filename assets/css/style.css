@@ -1,11 +1,31 @@
 body {
   background-color: #141414;
+  max-width: 100%;
 }
 
 footer {
   text-align: center;
 }
 
-body img:hover {
+#carouselExampleControls img:hover {
+  scale: 1.2;
+}
+
+#carouselExampleControls,
+#carouselExampleControls1,
+#carouselExampleControls2 {
+  position: relative;
+  left: 300px;
+}
+
+.carousel-control-next {
+  position: absolute;
+  right: 270px;
+}
+
+#carouselExampleControls1 img:hover {
+  scale: 1.2;
+}
+#carouselExampleControls2 img:hover {
   scale: 1.2;
 }
